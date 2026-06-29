@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Explore Samrat Power products: EV chargers, lithium battery packs and solar inverters." />
+  <title>Products | Samrat Power</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body data-page="products">
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <div id="header-mount"></div>
+  <main>
+    <section class="page-hero">
+      <div class="page-hero__bg" data-parallax="0.2"></div>
+      <div class="container">
+        <span class="eyebrow eyebrow--light reveal">Our Catalog</span>
+        <h1 class="page-hero__title kinetic-line">Products that power the future</h1>
+        <p class="reveal">Customized lithium packs, smart EV chargers and reliable inverters — engineered for performance.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="filters reveal" id="filters"></div>
+        <div class="product-grid" id="productGrid"></div>
+      </div>
+    </section>
+  </main>
+  <div class="modal" id="productModal" aria-hidden="true">
+    <div class="modal__overlay" data-close></div>
+    <div class="modal__dialog" role="dialog" aria-modal="true">
+      <button class="modal__close" data-close aria-label="Close">×</button>
+      <div class="modal__body">
+        <div class="gallery" id="galleryViewport"><div class="gallery__track" id="galleryTrack"></div></div>
+        <div class="modal__info">
+          <span class="eyebrow" id="modalCat"></span>
+          <h2 id="modalTitle"></h2>
+          <p id="modalDesc"></p>
+          <ul class="modal__specs" id="modalSpecs"></ul>
+          <a href="contact.html" class="btn btn--primary">Enquire Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="footer-mount"></div>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
