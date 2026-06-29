@@ -38,3 +38,12 @@ window.SAMRAT_FILTERS = [
   { key:'charger', label:'EV Charger' },
   { key:'inverter', label:'Inverter & UPS' }
 ];
+window.SAMRAT_FAQ = [
+  { q:'What are EV battery solutions?', a:'EV battery solutions are advanced energy storage systems designed specifically for electric vehicles. They provide the power needed to propel the vehicle, offering varying driving ranges on a single charge.' },
+  { q:'How do EV battery solutions work?', a:'They store electrical energy in lithium-ion battery packs made of multiple cells that store and release energy as needed to power the vehicle\'s electric motor.' },
+  { q:'Can your EV batteries be used in different types of vehicles?', a:'Yes. Our EV battery solutions are designed for a wide range of electric vehicles — passenger cars, commercial vehicles, buses, e-bikes, autos and more — adaptable to different vehicle types and sizes.' },
+  { q:'How long does it take to charge the EV batteries?', a:'Charging time depends on battery capacity, the charging infrastructure and the state of charge. Our solutions support fast charging, which significantly reduces charging times compared to standard charging.' },
+  { q:'What is the lifespan of your EV batteries?', a:'Lifespan varies with usage, environmental conditions and maintenance. Modern lithium-ion batteries used in EVs can generally last 8 to 15 years or more.' },
+  { q:'What types of EV chargers are available?', a:'There are three main types: Level 1 chargers (standard household outlet), Level 2 chargers (higher voltage, faster), and DC fast chargers (rapid charging for quick refueling).' },
+  { q:'Can I install an EV charger at home?', a:'Yes. You can install an EV charger at home if you have a suitable outlet or dedicated charging station. We recommend consulting an electrician to ensure proper installation and safety compliance.' }
+];
